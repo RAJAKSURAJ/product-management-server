@@ -1,9 +1,9 @@
 const mysql = require("mysql2");
 const db = mysql.createConnection({
   host: "localhost",
-  user: "root", // Default username for XAMPP
-  password: "", // No password by default
-  database: "productdb", // Your database name
+  user: "root",
+  password: "",
+  database: "productdb",
 });
 
 db.connect((err) => {
